@@ -4,10 +4,10 @@ from ftplib import FTP_TLS
 import json
 
 # Configure FTP connection settings
-ftp_host = "18.177.39.15"
-ftp_user = "mayuga"
-ftp_password = "gitara123"
-source_directory = "/home/mayuga/"
+ftp_host = "your_ec2_ip_address"
+ftp_user = "user"
+ftp_password = "password"
+source_directory = "directory"
 
 # Initialize S3
 s3 = boto3.client('s3')
